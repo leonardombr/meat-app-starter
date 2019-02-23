@@ -370,5 +370,74 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "aaaaaaaa",
+      "number": "111",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Teste compra",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "rua maria das dores",
+      "number": "331",
+      "optionalAddress": "Casa",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "capp"
+        },
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "Maria ",
+      "number": "1236",
+      "optionalAddress": "ds",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
