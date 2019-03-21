@@ -7,9 +7,10 @@ export class ErrorHandler {
         let errorMessage: string;
 
         if (error instanceof HttpErrorResponse) {
-            errorMessage = `Erro ${error.status} ao acessar a URL ${error.url} - ${error.statusText}`
+            const body = error.error
+            errorMessage = `${error.url}: ${error.status} - ${error.statusText || ''} ${body}`
         } else {
-            errorMessage = error.toString();
+            errorMessage = error.errorMessage ? error.errorMessage : error.toString()
         }
 
         console.log(errorMessage);
